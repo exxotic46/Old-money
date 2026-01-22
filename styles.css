@@ -1,0 +1,113 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    background-color: #f5f5dc;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fffdd0;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Hero */
+.hero {
+    background-color: #000;
+    color: #fffdd0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #fffdd0;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Featured Collections */
+.featured-collections {
+    padding: 80px 0;
+    background-color: #fffdd0;
+}
+
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.collection-item img {
+    width: 100%;
+}
+
+/* Philosophy */
+.philosophy {
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fffdd0;
+    padding: 40px 0;
+    text-align: center;
+}
